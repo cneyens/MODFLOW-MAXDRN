@@ -8,11 +8,15 @@ MODFLOW-MAXDRN is a version of MODFLOW-2005 [(Harbaugh, 2005; Harbaugh et al., 2
 
 The maximum flux constraint was incorporated in the code by adjusting the source code of the DRAIN packages in MODFLOW-2005 v1.12 as well as in MODFLOW-NWT v1.1.4. Full backward compatibility was retained. For more information, see the the [MODFLOW-MAXDRN readme file](./doc/mf_maxdrn_readme.txt). The source code can be found in the [src folder](./src). Executables compiled with GNU Fortran are included as binaries in the release.
 
+## To download
+Under releases, you will find a compressed file containing the repository which includes the source code (src), test and documentation (doc) folders. Compiled executables for MODFLOW-2005 ('mf2005_maxdrn.exe') and  
+MODFLOW-NWT ('mf_nwt_maxdrn.exe') are also listed.
+
 ## Versions
 Version 1.0.3 - October 2018
 
 ## To cite
-Neyens, C., Simpson, D. & Huysmans, M. 2018, Maximum-flux constraint for the MODFLOW DRAIN package to simulate dewatering wells, *in preparation*
+Neyens, C., Simpson, D. & Huysmans, M. *in review*, Maximum-flux constraint for the MODFLOW DRAIN package to simulate dewatering wells
 
 ## License
 This project is licensed under the MIT License. See also the [LICENSE](./LICENSE.md) file.
