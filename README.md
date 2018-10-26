@@ -1,10 +1,12 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1472241.svg)](https://doi.org/10.5281/zenodo.1472241)
+
 # MODFLOW-MAXDRN
 Adjustments to the DRAIN package for MODFLOW-2005 and MODFLOW-NWT to allow for a maximum constraint on simulated drain fluxes.
 
 ## About
 MODFLOW-MAXDRN is a version of MODFLOW-2005 [(Harbaugh, 2005; Harbaugh et al., 2017)](https://water.usgs.gov/ogw/modflow/mf2005.html) and MODFLOW-NWT [(Niswonger et al., 2011)](https://water.usgs.gov/ogw/modflow-nwt/) which allows maximum drain discharges to be specified by the user. These maximum discharges are of particular interest when dimensioning dewatering systems where drains are often used to find the discharge needed to obtain a targeted drawdown. Simulated discharge rates might be higher than what can be supplied by the physical well, particularly in early-stage drawdown. This results in simulated dewatering durations that are too optimistic in addition to cumulative extracted volumes that are larger than those supplied by the well. In MODFLOW-MAXDRN if, for a specific drain, the model calculates a discharge higher than the maximum discharge, this discharge will be set equal to the maximum and will become independent of the head difference between drain elevation and hydraulic head. In doing so, the drain switches from a head-dependent (Cauchy) boundary type to a constant-flux (Neumann) boundary. As such, an upper limit is imposed on the calculated drain discharge. 
 
-The maximum flux constraint was incorporated in the code by adjusting the source code of the DRAIN packages in MODFLOW-2005 v1.12 as well as in MODFLOW-NWT v1.1.4. Full backward compatibility was retained. For more information, see the the [MODFLOW-MAXDRN readme file](./doc/mf_maxdrn_readme.txt). The source code can be found in the [src folder](./src). A compiled version can be obtained upon request.
+The maximum flux constraint was incorporated in the code by adjusting the source code of the DRAIN packages in MODFLOW-2005 v1.12 as well as in MODFLOW-NWT v1.1.4. Full backward compatibility was retained. For more information, see the the [MODFLOW-MAXDRN readme file](./doc/mf_maxdrn_readme.txt). The source code can be found in the [src folder](./src). Executables compiled with GNU Fortran are included as binaries in the release.
 
 ## Versions
 Version 1.0.3 - October 2018
