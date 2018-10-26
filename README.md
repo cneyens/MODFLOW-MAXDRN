@@ -16,7 +16,7 @@ MODFLOW-NWT ('mf_nwt_maxdrn.exe') are also listed.
 Version 1.0.3 - October 2018
 
 ## To cite
-Neyens, C., Simpson, D. & Huysmans, M. *in review*, Maximum-flux constraint for the MODFLOW DRAIN package to simulate dewatering wells
+Neyens, C., Simpson, D. & Huysmans, M. 2018, Maximum-flux constraint for the MODFLOW DRAIN package to simulate dewatering wells, *in review*
 
 ## License
 This project is licensed under the MIT License. See also the [LICENSE](./LICENSE.md) file.
