@@ -1,0 +1,11 @@
+# NAME file for MF-DRN test 1
+LIST 19 output.lst
+DIS 20 input.dis
+BAS6 25 input.bas
+OC 30 input.oc
+LPF 35 input.lpf
+PCG 40 input.pcg
+DRN 45 input.drn
+#DRN 45 input_prm.drn
+DATA(BINARY) 88 output.bud
+DATA 66 output.hed

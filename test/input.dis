@@ -1,0 +1,10 @@
+# MODFLOW Discretization File created by RMODFLOW, version 0.4.0.9000 
+# 
+1 10 10 2 4 2
+0
+CONSTANT 100
+CONSTANT 100
+CONSTANT 0
+CONSTANT -10
+1 1 1 SS
+100 100 1 TR

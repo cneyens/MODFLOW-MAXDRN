@@ -1,0 +1,16 @@
+# DRN parameter file for MF-DRN test 1
+#
+PARAMETER 2 3
+7 88 AUX IFACE QMAX
+DRN_1 DRN 1 1
+490
+1 5 5 -8 100 0
+DRN_2 DRN 1 2
+-30
+1 6 5 -8 100 0
+1 6 6 -8 100 0
+0 1
+DRN_1
+0 2
+DRN_1
+DRN_2 
