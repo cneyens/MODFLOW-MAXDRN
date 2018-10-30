@@ -1,4 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1472241.svg)](https://doi.org/10.5281/zenodo.1472241)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1474301.svg)](https://doi.org/10.5281/zenodo.1474301)
 
 # MODFLOW-MAXDRN
 Adjustments to the DRAIN package for MODFLOW-2005 and MODFLOW-NWT to allow for an upper limit on simulated drain fluxes.
